@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
-import Nav from './nav';
+import Header from './Header';
 import './App.css';
 
 export default function App() {
-	return <Nav 
+	return <Header 
   logo='PJay' 
   company='Jay Designs' 
   lastLink='Info'/>

@@ -1,5 +1,10 @@
+:root {
+ --opacity: .55;  
+}
 nav {
-    background: linear-gradient(68deg, rgb(78, 184, 187) 0%, rgb(245, 185, 56) 74%);
+    background: linear-gradient(68deg, rgba(253,130,154,var(--opacity)) 0%, rgba(248,107,249, var(--opacity)) 74%);
+    position: fixed;
+    width: 100%;
     }
 ul {
     display: flex;
