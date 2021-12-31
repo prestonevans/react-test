@@ -1,0 +1,31 @@
+nav {
+    background: linear-gradient(68deg, rgb(78, 184, 187) 0%, rgb(245, 185, 56) 74%);
+    }
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: min(2vw, 1.25em) min(4vw, 2em);
+    color: white;
+    position: relative;
+    font-size: 1.25rem;
+}
+li {
+    list-style: none;
+    transition: letter-spacing .3s ease-in;
+    text-transform: capitalize;
+}
+li:nth-child(2) {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+}
+li:hover {
+    cursor: pointer;
+    letter-spacing: .1em;
+}
+.bold {
+    font-weight: 700;
+}
